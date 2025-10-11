@@ -22,11 +22,11 @@ def criar_evento(id, nome, data, local, categoria, participado):
     return novo_evento
 
 
-b = criar_evento(1, "jose", "aaaa", "ali", "lá", True)
-print(b)
+# b = criar_evento(1, "jose", "aaaa", "ali", "lá", True)
+# print(b)
 
 # Lista os eventos já criados
-eventos_criado = [b]
+# eventos_criado = [b]
 
 """def listar_eventos():
     for novo_evento in b:
@@ -38,8 +38,8 @@ def listar_eventos():
         print(evento_item)
 
 
-a = listar_eventos()
-print(a)
+# a = listar_eventos()
+# print(a)
 
 # Função pra procurar evento por nome
 
